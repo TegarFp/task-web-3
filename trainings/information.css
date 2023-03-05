@@ -1,0 +1,640 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Poppins';
+}
+
+/* Awal Header */
+.navbar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  float: center;
+}
+.akhir {
+  position: absolute;
+  margin-top: 2100px;
+}
+del {
+  text-decoration: line-through;
+  color: #bdbdbd;
+}
+a {
+  color: #ffffff;
+}
+li a {
+  color: #ffffff;
+}
+header {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  background-color: #219653;
+  cursor: pointer;
+  color: #ffffff;
+}
+h1 {
+  display: inline;
+  float: left;
+  margin: 18px auto;
+  margin-left: 140px;
+}
+
+.menu {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 70px;
+  top: 27px;
+  text-transform: uppercase;
+}
+
+.menu li {
+  display: inline;
+  width: 100px;
+  color: #ffffff;
+  list-style: none;
+  text-align: center;
+  float: center;
+}
+.reihan {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 200px;
+}
+.navbarRight p {
+  position: absolute;
+  width: 100%;
+  height: 32px;
+  margin-left: -140px;
+  text-align: right;
+  color: #ffffff;
+}
+.profillogin {
+  position: absolute;
+  margin-left: -350px;
+  margin-bottom: 10px;
+}
+.login {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  text-align: right;
+}
+.login a {
+  color: #ffffff;
+}
+/* Akhir Header */
+
+/* Awal Training */
+.all {
+  position: absolute;
+  width: 1252px;
+  height: 450px;
+  margin-top: 100px;
+  margin-left: 140px;
+  border: 2px solid #ffffff;
+}
+del {
+  text-decoration: line-through;
+  color: #bdbdbd;
+}
+.all .rapat {
+  width: 474px;
+  height: 280px;
+  position: absolute;
+}
+.training {
+  position: absolute;
+  margin-left: 510px;
+}
+
+.profil .ProImg {
+  position: absolute;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.nama p {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 30px;
+}
+.type {
+  position: absolute;
+  margin-top: 50px;
+}
+.reward {
+  position: absolute;
+  margin-top: 3px;
+}
+.point75 {
+  position: absolute;
+  margin-top: 27px;
+}
+/* Akhir Training */
+
+/* Awal Menu Keranjang */
+.frame {
+  position: absolute;
+  width: 290px;
+  height: 260px;
+  margin-left: 1103px;
+  margin-top: 100px;
+  border: 2px solid #bdbdbd;
+  border-radius: 10px;
+}
+
+.jumlah {
+  color: #333333;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.tiket {
+  position: absolute;
+  width: 80px;
+  font-size: 14px;
+  margin-left: 145px;
+  margin-top: -23px;
+}
+.frames {
+  position: absolute;
+  margin-top: 5px;
+  text-align: center;
+  width: 128px;
+  height: 35px;
+  margin-left: 10px;
+  border: 1px solid #219653;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.qty-input {
+  width: 30px;
+  text-align: center;
+  border: #ffffff;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.minus-btn,
+.plus-btn {
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.minus-btn:focus,
+.plus-btn:focus,
+.qty-input:focus {
+  outline: none;
+}
+
+.plus-btn {
+  margin-right: 10px;
+}
+
+.minus-btn:hover,
+.plus-btn:hover {
+  background-color: #bdbdbd;
+}
+.harga1 {
+  margin-top: 30px;
+  margin-left: 215px;
+}
+.harga2 {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 180px;
+}
+.sub {
+  position: absolute;
+  margin-top: 8px;
+}
+.log .logg {
+  position: absolute;
+  width: 270px;
+  height: 40px;
+  margin-left: -65px;
+  margin-top: 35px;
+  font-size: 17px;
+  color: #ffffff;
+  background-color: #219653;
+  border: 2px solid #219653;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bagg {
+  position: absolute;
+  width: 270px;
+  font-size: 17px;
+  height: 40px;
+  margin-top: 85px;
+  text-align: center;
+  margin-left: -64px;
+  color: #bdbdbd;
+  border: 2px solid #bdbdbd;
+  border-radius: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.bagimg {
+  position: absolute;
+  margin-left: -40px;
+  margin-top: -2.5px;
+}
+/* Akhir Menu Keranjang */
+
+/* Awal Button */
+.log {
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+}
+a {
+  color: #ffffff;
+}
+a:hover {
+  transform: translate(2px);
+  color: #bdbdbd;
+}
+
+.log,
+.frames button:active {
+  background-color: #219653;
+  box-shadow: 0 5px #bdbdbd;
+  transform: translateY(4px);
+}
+
+/* Akhir Button */
+
+/* Awal Information */
+.info {
+  position: absolute;
+  width: 560px;
+  height: 60px;
+  margin-top: 450px;
+  margin-left: 500px;
+  text-align: center;
+}
+
+.info1 {
+  position: absolute;
+  width: 130px;
+  height: 50px;
+  margin-left: -260px;
+  border: 2px solid #219653;
+  border-radius: 5px;
+  font-size: 19px;
+  background-color: #219653;
+  cursor: pointer;
+}
+
+.info2 {
+  position: absolute;
+  width: 130px;
+  height: 50px;
+  margin-left: -118px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  font-size: 19px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.info3 {
+  position: absolute;
+  width: 130px;
+  height: 50px;
+  margin-left: 24px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-size: 19px;
+  cursor: pointer;
+}
+.info button:active {
+  color: #ffffff;
+  box-shadow: 0 5px #219653;
+  transform: translateY(4px);
+}
+
+/* Akhir Information */
+
+/* Awal Descripsi */
+.des {
+  position: absolute;
+  display: flex;
+  width: 1255px;
+  height: 250.8px;
+  border: 2px solid #bdbdbd;
+  border-radius: 5px;
+  margin-top: 570px;
+  margin-left: 140px;
+}
+.des1 {
+  position: absolute;
+  margin: 20px;
+  margin-top: 48.4px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.des2 {
+  position: absolute;
+  width: 800px;
+  height: 200px;
+  margin: 20px;
+  margin-top: 48.4px;
+  font-weight: 500;
+  margin-left: 130px;
+  line-height: 22px;
+}
+.des2 li {
+  list-style: disc;
+  margin-left: 26px;
+}
+/* Akhir Descripsi */
+
+/* Awal Other */
+.other {
+  position: absolute;
+  text-align: center;
+  margin-top: 884px;
+  margin-left: 503.615px;
+}
+
+/* Akhir Other */
+
+/* Awal Box  */
+.box9 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 140px;
+  margin-top: 1039px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box10 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 470px;
+  margin-top: 1039px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box11 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 790px;
+  margin-top: 1039px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box12 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 1120px;
+  margin-top: 1039px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.online3 p {
+  position: absolute;
+  text-align: center;
+  color: #ffffff;
+  width: 92px;
+  height: 30px;
+  border: 5px solid #219653;
+  background: #219653;
+  border-radius: 7px 0px 10px 0px;
+}
+
+.ribbon p {
+  position: absolute;
+  width: 210px;
+  height: 30px;
+  justify-content: center;
+  display: flex;
+  float: center;
+  top: 15px;
+  left: 140px;
+  align-items: center;
+  background: #2f80ed;
+  border-radius: 1px;
+  transform: rotate(45deg);
+  clip-path: polygon(50% -100%, 100% -20%, 100% calc(100% - 80px), calc(100% - 76.5px) -0.9%, 78% 100%, 11.9% calc(50px)); /* set clip-path */
+}
+
+.kerangka {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 15px;
+}
+
+.bdbd {
+  position: inherit;
+  color: #bdbdbd;
+}
+
+.harga {
+  margin-top: 280px;
+  margin-left: 15px;
+}
+
+.img9,
+.img10,
+.img11,
+.img12 {
+  position: absolute;
+  width: 275px;
+  height: 180px;
+  background-image: url(../image/orang.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.bintang {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.b5 {
+  position: absolute;
+  margin-top: 22px;
+  margin-left: 125px;
+}
+
+.tiket10 {
+  position: absolute;
+  width: 100px;
+  margin-top: 5px;
+  margin-left: 7px;
+}
+.point10 {
+  position: absolute;
+  width: 180px;
+  top: 38px;
+  margin-left: 8px;
+}
+
+.arrow10 {
+  position: absolute;
+  width: 50px;
+  margin-top: 46px;
+  margin-left: 207.3px;
+  text-align: center;
+  color: #ffffff;
+  border: 5px solid #219653;
+  background: #219653;
+  border-radius: 7px 0px 10px 0px;
+  cursor: pointer;
+}
+
+.bintang10 {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.b10 {
+  position: absolute;
+  margin-top: 22px;
+  margin-left: 125px;
+}
+.bintang21 {
+  position: absolute;
+  margin-top: 59.5px;
+  margin-left: 15px;
+}
+.b21 {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 125px;
+}
+.tiket21 {
+  position: absolute;
+  width: 100px;
+  margin-top: 45px;
+  margin-left: 7px;
+}
+.point21 {
+  position: absolute;
+  width: 180px;
+  top: 38px;
+  margin-left: 8px;
+}
+
+.arrow21 {
+  position: absolute;
+  width: 50px;
+  margin-top: 38px;
+  margin-left: 207.3px;
+  text-align: center;
+  color: #ffffff;
+  border: 5px solid #219653;
+  background: #219653;
+  border-radius: 7px 0px 10px 0px;
+  cursor: pointer;
+}
+.tiket2 {
+  position: absolute;
+  width: 100px;
+  margin-top: 5px;
+  margin-left: 7px;
+}
+.point2 {
+  position: absolute;
+  width: 180px;
+  top: 38px;
+  margin-left: 8px;
+}
+
+.arrow2 {
+  position: absolute;
+  width: 50px;
+  margin-top: 46px;
+  margin-left: 207.3px;
+  text-align: center;
+  color: #ffffff;
+  border: 5px solid #219653;
+  background: #219653;
+  border-radius: 7px 0px 10px 0px;
+  cursor: pointer;
+}
+
+/* Akhir Box */
+
+/* Awal Footer */
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 290px;
+  margin-top: 1557.2px;
+  background-color: #219653;
+  text-align: center;
+}
+.top {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  margin-top: 1607.2px;
+  text-align: center;
+}
+.buttom {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  margin-top: 1797.2px;
+  background-color: #1e894c;
+  text-align: center;
+}
+.buttom2 {
+  position: absolute;
+  width: 100%;
+  top: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+.top2 {
+  position: absolute;
+  width: 100%;
+  top: 60px;
+}
+
+.imgfooter {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  top: 100px;
+  cursor: pointer;
+}
+/* Akhir Footer */

@@ -1,0 +1,544 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Poppins';
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+/* Awal Header */
+.navbar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  float: center;
+}
+.akhir {
+  position: absolute;
+  margin-top: 2100px;
+}
+del {
+  text-decoration: line-through;
+  color: #bdbdbd;
+}
+a {
+  color: #ffffff;
+}
+li a {
+  color: #ffffff;
+}
+header {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  background-color: #219653;
+  cursor: pointer;
+  color: #ffffff;
+}
+h1 {
+  display: inline;
+  float: left;
+  margin: 18px auto;
+  margin-left: 140px;
+}
+
+.menu {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 70px;
+  top: 27px;
+  text-transform: uppercase;
+}
+
+.menu li {
+  display: inline;
+  width: 100px;
+  color: #ffffff;
+  list-style: none;
+  text-align: center;
+  float: center;
+}
+.reihan {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 200px;
+}
+.navbarRight p {
+  position: absolute;
+  width: 100%;
+  height: 32px;
+  margin-left: -140px;
+  text-align: right;
+  color: #ffffff;
+}
+.profillogin {
+  position: absolute;
+  margin-left: -350px;
+  margin-bottom: 10px;
+}
+.login {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  text-align: right;
+}
+.login a {
+  color: #ffffff;
+}
+/* Akhir Header */
+
+/* Awal Short By */
+.sort {
+  position: absolute;
+  width: 190px;
+  height: 600px;
+  margin-top: 110px;
+  margin-left: 140px;
+  font-size: 14px;
+  border: 1px solid #f2f2f2;
+  background: #ffffff;
+  box-sizing: border-box;
+  overflow-y: scroll; /* Untuk Scroll*/
+  border-radius: 5px;
+}
+.sortradio {
+  margin-left: 38px;
+  cursor: pointer;
+}
+.psort {
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  margin-right: 22px;
+}
+
+input {
+  cursor: pointer;
+}
+
+.typeclass {
+  position: absolute;
+  width: 189px;
+  height: 200px;
+  margin-top: 10px;
+}
+.ptype {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 26px;
+}
+
+.typeradio {
+  cursor: pointer;
+  position: absolute;
+  margin-left: 38px;
+}
+
+.kategori {
+  position: absolute;
+  width: 189px;
+  height: 200px;
+  margin-top: 174px;
+}
+
+.pkategori {
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+  margin-right: 22px;
+}
+
+.typebox {
+  position: absolute;
+  cursor: pointer;
+  margin-left: 38px;
+}
+
+/* Akhir Sort */
+
+/* Awal Search */
+.search-form {
+  position: absolute;
+  margin-left: 381px;
+  margin-top: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box input {
+  color: #bdbdbd;
+  width: 847px;
+  border: 1px solid #ffffff;
+}
+
+.search-box {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-box input[type='text'] {
+  border: none;
+  font-size: 16px;
+  width: 85px;
+  margin-right: 10px;
+}
+
+.search-box button {
+  border: none;
+  margin-left: 20px;
+  padding: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.search-box button {
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+.search-box button:hover {
+  background-color: #bdbdbd;
+}
+
+/* Akhir Search */
+
+/* Awal Box 1 */
+.box1 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 380px;
+  margin-top: 180px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box2 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 697.5px;
+  margin-top: 180px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box3 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 1015px;
+  margin-top: 180px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.online p {
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  color: #ffffff;
+  border: 5px solid #219653;
+  background: #219653;
+  border-radius: 7px 0px 10px 0px;
+}
+.ribbon1 p {
+  position: absolute;
+  width: 210px;
+  height: 30px;
+  justify-content: center;
+  display: flex;
+  float: center;
+  top: 15px;
+  left: 140px;
+  align-items: center;
+  background: #2f80ed;
+  border-radius: 1px;
+  transform: rotate(45deg);
+  clip-path: polygon(50% -100%, 100% -20%, 100% calc(100% - 80px), calc(100% - 76.5px) -0.9%, 78% 100%, 11.9% calc(50px)); /* set clip-path */
+}
+
+.ribbon2 p {
+  position: absolute;
+  width: 210px;
+  height: 30px;
+  justify-content: center;
+  display: flex;
+  float: center;
+  top: 15px;
+  left: 140px;
+  align-items: center;
+  background: #f2994a;
+  border-radius: 1px;
+  transform: rotate(45deg);
+  clip-path: polygon(50% -100%, 100% -20%, 100% calc(100% - 80px), calc(100% - 76.5px) -0.9%, 78% 100%, 11.9% calc(50px)); /* set clip-path */
+}
+.ribbon3 p {
+  position: absolute;
+  width: 210px;
+  height: 30px;
+  justify-content: center;
+  display: flex;
+  float: center;
+  top: 15px;
+  left: 140px;
+  align-items: center;
+  background: #eb5757;
+  border-radius: 1px;
+  transform: rotate(45deg);
+  clip-path: polygon(50% -100%, 100% -20%, 100% calc(100% - 80px), calc(100% - 76.5px) -0.9%, 78% 100%, 11.9% calc(50px)); /* set clip-path */
+}
+
+.ribbon4 p {
+  position: absolute;
+  width: 210px;
+  height: 30px;
+  justify-content: center;
+  display: flex;
+  float: center;
+  top: 15px;
+  left: 140px;
+  align-items: center;
+  background: #eb5757;
+  border-radius: 1px;
+  transform: rotate(45deg);
+  clip-path: polygon(50% -100%, 100% -20%, 100% calc(100% - 80px), calc(100% - 76.5px) -0.9%, 78% 100%, 11.9% calc(50px)); /* set clip-path */
+  overflow: hidden;
+}
+
+.kerangka1 {
+  position: absolute;
+  margin-top: 195px;
+  margin-left: 15px;
+}
+
+.bdbd {
+  margin-top: 7px;
+  position: inherit;
+  color: #bdbdbd;
+}
+
+.harga1 {
+  margin-top: 310px;
+  margin-left: 15px;
+}
+
+.img1,
+.img2,
+.img3 {
+  position: absolute;
+  width: 275px;
+  height: 180px;
+  background-image: url(image/computer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.profil .ProImg {
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 15px;
+}
+.nama p {
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 50px;
+}
+
+.tiket1,
+.point {
+  position: absolute;
+  width: 100px;
+  margin-top: 5px;
+  margin-left: 7px;
+}
+
+.arrow {
+  position: absolute;
+  width: 50px;
+  margin-top: 10.5px;
+  margin-left: 207.3px;
+  text-align: center;
+  color: #ffffff;
+  border: 5px solid #219653;
+  background: #219653;
+  cursor: pointer;
+  border-radius: 7px 0px 10px 0px;
+}
+
+/* Akhir Box 1 */
+
+/* Awal Box 2 */
+.box4 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 380px;
+  margin-top: 646.6px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box5 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 697.5px;
+  margin-top: 646.6px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+}
+.box6 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 1015px;
+  margin-top: 646.6px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img4,
+.img5,
+.img6 {
+  position: absolute;
+  width: 275px;
+  height: 180px;
+  background-image: url(image/computer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  background-color: #bdbdbd;
+}
+
+/* Akhir Box 2*/
+
+/* Awal Box 3 */
+.box7 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 380px;
+  margin-top: 1113.2px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box8 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 697.5px;
+  margin-top: 1113.2px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box9 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 1015px;
+  margin-top: 1113.2px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img7,
+.img8,
+.img9 {
+  position: absolute;
+  width: 275px;
+  height: 180px;
+  background-image: url(image/computer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+/* Akhir Box 3*/
+
+/* Awal Box 3 */
+.box10 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 380px;
+  margin-top: 1579.8px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box11 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 697.5px;
+  margin-top: 1579.8px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box12 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 1015px;
+  margin-top: 1579.8px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img10,
+.img11,
+.img12 {
+  position: absolute;
+  width: 275px;
+  height: 180px;
+  background-image: url(image/computer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+/* Akhir Box 3*/
