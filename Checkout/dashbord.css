@@ -1,0 +1,512 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Poppins';
+}
+
+/* Awal Header */
+
+header {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #1e894c;
+}
+header h1 {
+  display: inline;
+  float: left;
+  margin: 18px auto;
+  font-weight: 700;
+  margin-left: 140px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.menu {
+  position: absolute;
+  display: flex;
+  width: 350px;
+  margin-top: 35px;
+  margin-left: 550px;
+  text-align: center;
+}
+
+.menu ul {
+  position: absolute;
+  display: flex;
+}
+
+ul li a {
+  padding: 15px;
+  font-weight: 500;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+ul li a:hover {
+  box-shadow: #bdbdbd;
+  transform: translate(4px);
+}
+
+.login {
+  position: absolute;
+  display: flex;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 1200px;
+  color: #ffffff;
+}
+.navbarRight {
+  position: absolute;
+  display: flex;
+}
+
+.prof {
+  position: absolute;
+  display: flex;
+  width: 150px;
+  margin-left: -68px;
+}
+
+.profillogin {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: -115px;
+}
+
+.reihan {
+  position: absolute;
+  width: 200px;
+  margin-left: -68px;
+  margin-top: 20px;
+}
+/* Akhir Header */
+
+/* Dashboard */
+.dashboard {
+  position: absolute;
+  display: flex;
+  width: 1200px;
+  height: 950px;
+  margin-left: 140px;
+  margin-top: 150px;
+}
+
+.dash {
+  position: absolute;
+  display: flex;
+  width: 800px;
+  height: 550px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.dash p {
+  margin-top: 15px;
+}
+
+.p-dash {
+  position: absolute;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.p-kat {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 230px;
+  line-height: 32px;
+}
+.p-event {
+  position: absolute;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 190px;
+  line-height: 32px;
+}
+
+.dash-shirt {
+  position: absolute;
+  width: 156px;
+  height: 92px;
+  border-radius: 5px;
+  background-image: linear-gradient(180deg, #2f80ed, #1c66c9 100%);
+}
+
+.dash-book {
+  position: absolute;
+  width: 143px;
+  height: 92px;
+  margin-left: 186px;
+  border-radius: 5px;
+  background-image: linear-gradient(180deg, #9b51e0, #833cc5 100%);
+}
+
+.dash-event {
+  position: absolute;
+  width: 310px;
+  height: 92px;
+  margin-left: 359px;
+  border-radius: 5px;
+  background-image: linear-gradient(180deg, #f2994a, #cd7b32 100%);
+}
+
+.dash-events {
+  position: absolute;
+  width: 235px;
+  height: 92px;
+  margin-left: 699px;
+  border-radius: 5px;
+  background-image: linear-gradient(180deg, #eb5757, #bc2d2d 100%);
+}
+.dash-point {
+  position: absolute;
+  width: 202px;
+  height: 92px;
+  margin-left: 964px;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #219653, #1d8449 100%);
+}
+
+.kategori {
+  position: absolute;
+  display: flex;
+  border-radius: 5px;
+  margin-top: 280px;
+}
+
+.search-all {
+  position: absolute;
+  width: 160px;
+  height: 30px;
+  margin-left: 1020px;
+  border: 1px solid #1c66c9;
+}
+/* Akhir Dashboard */
+
+/* Awal Search */
+.search-form {
+  position: absolute;
+  margin-left: 1010px;
+  width: 150px;
+  height: 50px;
+  margin-top: -15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box input {
+  color: #000000;
+}
+
+.search-box {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-box input[type='text'] {
+  border: none;
+  font-size: 16px;
+  width: 86px;
+  height: -30px;
+  margin-right: 10px;
+}
+
+.search-box button {
+  border: none;
+  padding: 2px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.search-box button {
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+.search-box button:hover {
+  background-color: #bdbdbd;
+}
+
+/* Akhir Search */
+
+/* Awal Box  */
+
+.box9 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 105px;
+  margin-top: 520px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box10 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 445px;
+  margin-top: 520px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box11 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 775px;
+  margin-top: 520px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box12 {
+  position: absolute;
+  width: 274px;
+  height: 415px;
+  margin-left: 1095px;
+  margin-top: 520px;
+  background-color: #ffffff;
+  font-style: normal;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.online3 p {
+  position: absolute;
+  text-align: center;
+  color: #ffffff;
+  width: 95px;
+  height: 32px;
+  border: 5px solid #219653;
+  background: #219653;
+  border-radius: 7px 0px 10px 0px;
+}
+
+.ribbon p {
+  position: absolute;
+  width: 210px;
+  height: 30px;
+  justify-content: center;
+  display: flex;
+  float: center;
+  top: 15px;
+  left: 140px;
+  align-items: center;
+  background: #2f80ed;
+  border-radius: 1px;
+  transform: rotate(45deg);
+  clip-path: polygon(50% -100%, 100% -20%, 100% calc(100% - 80px), calc(100% - 76.5px) -0.9%, 78% 100%, 11.9% calc(50px)); /* set clip-path */
+}
+
+.kerangka {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 15px;
+}
+
+.bdbd {
+  position: inherit;
+  color: #bdbdbd;
+}
+
+.harga {
+  line-height: 10px;
+  margin-top: 280px;
+  margin-left: 15px;
+}
+
+.img9,
+.img10,
+.img11,
+.img12 {
+  position: absolute;
+  width: 275px;
+  height: 180px;
+  background-image: url(../image/orang.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.bintang {
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 15px;
+}
+.b5 {
+  position: absolute;
+  margin-left: 125px;
+}
+
+.tiket10 {
+  position: absolute;
+  width: 100px;
+  margin-top: 5px;
+  margin-left: 7px;
+}
+.point10 {
+  position: absolute;
+  width: 180px;
+  top: 18px;
+  margin-left: 8px;
+}
+
+.arrow10 {
+  position: absolute;
+  width: 60px;
+  margin-top: 15px;
+  margin-left: 207.3px;
+  text-align: center;
+  color: #ffffff;
+  border: 5px solid #219653;
+  background: #219653;
+  border-radius: 7px 0px 10px 0px;
+  cursor: pointer;
+}
+
+.bintang10 {
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 15px;
+}
+.b10 {
+  position: absolute;
+  margin-left: 125px;
+}
+.bintang21 {
+  position: absolute;
+  margin-top: 48px;
+  margin-left: 15px;
+}
+.b21 {
+  position: absolute;
+  margin-top: 53px;
+  margin-left: 125px;
+}
+.tiket21 {
+  position: absolute;
+  width: 100px;
+  margin-top: 45px;
+  margin-left: 7px;
+}
+.point21 {
+  position: absolute;
+  width: 180px;
+  top: 30px;
+  margin-left: 8px;
+}
+
+.arrow21 {
+  position: absolute;
+  width: 60px;
+  margin-top: 28px;
+  margin-left: 207.3px;
+  text-align: center;
+  color: #ffffff;
+  border: 5px solid #219653;
+  background: #219653;
+  border-radius: 7px 0px 10px 0px;
+  cursor: pointer;
+}
+.tiket2 {
+  position: absolute;
+  width: 100px;
+  margin-top: 5px;
+  margin-left: 7px;
+}
+.point2 {
+  position: absolute;
+  width: 180px;
+  top: 18px;
+  margin-left: 8px;
+}
+
+.arrow2 {
+  position: absolute;
+  width: 60px;
+  margin-top: 15px;
+  margin-left: 207.3px;
+  text-align: center;
+  color: #ffffff;
+  border: 5px solid #219653;
+  background: #219653;
+  border-radius: 7px 0px 10px 0px;
+  cursor: pointer;
+}
+
+/* Akhir Box */
+
+/* Awal Footer */
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 290px;
+  margin-top: 1050px;
+  background-color: #219653;
+  text-align: center;
+}
+.top {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  margin-top: 1120px;
+  text-align: center;
+}
+.buttom {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  margin-top: 1330px;
+  background-color: #1e894c;
+  text-align: center;
+}
+.buttom2 {
+  position: absolute;
+  width: 100%;
+  top: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+.top2 {
+  position: absolute;
+  width: 100%;
+  top: 60px;
+}
+
+.imgfooter {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  top: 100px;
+  cursor: pointer;
+}
+
+/* Akhir Footer */
