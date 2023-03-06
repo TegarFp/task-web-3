@@ -14,13 +14,24 @@ body {
 /* Awal Header */
 .navbar {
   display: flex;
-  margin-top: 26px;
   justify-content: center;
   text-align: center;
-  color: #ffffff;
   float: center;
 }
-
+.akhir {
+  position: absolute;
+  margin-top: 2100px;
+}
+del {
+  text-decoration: line-through;
+  color: #bdbdbd;
+}
+a {
+  color: #ffffff;
+}
+li a {
+  color: #ffffff;
+}
 header {
   position: absolute;
   width: 100%;
@@ -28,11 +39,6 @@ header {
   background-color: #219653;
   cursor: pointer;
   color: #ffffff;
-}
-
-.login ul li:hover {
-  box-shadow: 0 5px #bdbdbd;
-  transform: translateY(4px);
 }
 h1 {
   display: inline;
@@ -43,31 +49,38 @@ h1 {
 
 .menu {
   position: absolute;
+  overflow: hidden;
   width: 100%;
   height: 70px;
-  list-style: none;
-  text-align: center;
+  top: 27px;
   text-transform: uppercase;
 }
 
 .menu li {
-  display: flex;
+  display: inline;
   width: 100px;
+  color: #ffffff;
   list-style: none;
   text-align: center;
   float: center;
 }
-.navbarRight {
-  display: flex;
-  margin-top: 26px;
-  margin-right: 140px;
-  justify-content: right;
+.reihan {
   text-align: right;
-  float: center;
+  margin-top: 20px;
+  margin-right: 200px;
+}
+.navbarRight p {
+  position: absolute;
+  width: 100%;
+  height: 32px;
+  margin-left: -140px;
+  text-align: right;
   color: #ffffff;
 }
-.navbarRight li {
-  width: 59px;
+.profillogin {
+  position: absolute;
+  margin-left: -350px;
+  margin-bottom: 10px;
 }
 .login {
   position: absolute;
@@ -281,10 +294,10 @@ a:hover {
   width: 130px;
   height: 50px;
   margin-left: -260px;
-  border: 2px solid #219653;
+  border: 2px solid #ffffff;
   border-radius: 5px;
   font-size: 19px;
-  background-color: #219653;
+  background-color: #ffffff;
   cursor: pointer;
 }
 
@@ -305,8 +318,8 @@ a:hover {
   width: 130px;
   height: 50px;
   margin-left: 24px;
-  border: 2px solid #ffffff;
-  background-color: #ffffff;
+  border: 2px solid #219653;
+  background-color: #219653;
   border-radius: 5px;
   font-size: 19px;
   cursor: pointer;
@@ -324,33 +337,38 @@ a:hover {
   position: absolute;
   display: flex;
   width: 1255px;
-  height: 250.8px;
+  height: 350.8px;
   border: 2px solid #bdbdbd;
   border-radius: 5px;
   margin-top: 570px;
   margin-left: 140px;
 }
-.des1 {
+.desimg {
   position: absolute;
-  margin: 20px;
-  margin-top: 48.4px;
-  font-weight: 700;
-  line-height: 22px;
+  display: flex;
+  margin-left: 60px;
+  margin-top: 50px;
+  width: 1105px;
+  align-items: center;
 }
 
-.des2 {
+.desimg1 {
   position: absolute;
-  width: 800px;
-  height: 200px;
-  margin: 20px;
-  margin-top: 48.4px;
-  font-weight: 500;
-  margin-left: 130px;
-  line-height: 22px;
+  display: flex;
+  margin-left: 60px;
+  margin-top: 150px;
 }
-.des2 li {
-  list-style: disc;
-  margin-left: 26px;
+
+.desimg2 {
+  position: absolute;
+  display: flex;
+  margin-left: 60px;
+  margin-top: 250px;
+}
+
+.binwis {
+  margin-top: -65px;
+  margin-left: 80px;
 }
 /* Akhir Descripsi */
 
@@ -358,8 +376,15 @@ a:hover {
 .other {
   position: absolute;
   text-align: center;
-  margin-top: 884px;
+  margin-top: 1000px;
   margin-left: 503.615px;
+}
+
+#est {
+  position: absolute;
+  width: 900px;
+  margin-left: 250px;
+  margin-top: -63px;
 }
 
 /* Akhir Other */
@@ -370,7 +395,7 @@ a:hover {
   width: 274px;
   height: 415px;
   margin-left: 140px;
-  margin-top: 1039px;
+  margin-top: 1200px;
   background-color: #ffffff;
   font-style: normal;
   border: 2px solid #e5e5e5;
@@ -382,7 +407,7 @@ a:hover {
   width: 274px;
   height: 415px;
   margin-left: 470px;
-  margin-top: 1039px;
+  margin-top: 1200px;
   background-color: #ffffff;
   font-style: normal;
   border: 2px solid #e5e5e5;
@@ -394,7 +419,7 @@ a:hover {
   width: 274px;
   height: 415px;
   margin-left: 790px;
-  margin-top: 1039px;
+  margin-top: 1200px;
   background-color: #ffffff;
   font-style: normal;
   border: 2px solid #e5e5e5;
@@ -406,7 +431,7 @@ a:hover {
   width: 274px;
   height: 415px;
   margin-left: 1120px;
-  margin-top: 1039px;
+  margin-top: 1200px;
   background-color: #ffffff;
   font-style: normal;
   border: 2px solid #e5e5e5;
@@ -585,7 +610,7 @@ a:hover {
   position: absolute;
   width: 100%;
   height: 290px;
-  margin-top: 1557.2px;
+  margin-top: 1787.2px;
   background-color: #219653;
   text-align: center;
 }
@@ -593,14 +618,14 @@ a:hover {
   position: absolute;
   width: 100%;
   height: 200px;
-  margin-top: 1607.2px;
+  margin-top: 1867.2px;
   text-align: center;
 }
 .buttom {
   position: absolute;
   width: 100%;
   height: 50px;
-  margin-top: 1797.2px;
+  margin-top: 2075.2px;
   background-color: #1e894c;
   text-align: center;
 }

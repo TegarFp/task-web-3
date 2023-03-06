@@ -1,0 +1,638 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Poppins';
+}
+
+/* Awal Header */
+
+header {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #1e894c;
+}
+header h1 {
+  display: inline;
+  float: left;
+  margin: 18px auto;
+  margin-left: 140px;
+  color: #ffffff;
+}
+.menu {
+  position: absolute;
+  display: flex;
+  width: 350px;
+  margin-top: 35px;
+  margin-left: 550px;
+  text-align: center;
+}
+
+.menu ul {
+  position: absolute;
+  display: flex;
+}
+
+ul li a {
+  padding: 15px;
+  font-weight: 500;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+ul li a:hover {
+  box-shadow: #bdbdbd;
+  transform: translate(4px);
+}
+
+.login {
+  position: absolute;
+  display: flex;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 1200px;
+  color: #ffffff;
+}
+.navbarRight {
+  position: absolute;
+  display: flex;
+}
+.profillogin {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: -60px;
+}
+
+.reihan {
+  position: absolute;
+  width: 200px;
+  margin-top: 20px;
+}
+/* Akhir Header */
+
+/* Awal Total */
+.frame {
+  position: absolute;
+  width: 290px;
+  height: 345px;
+  margin-left: 1103px;
+  margin-top: 170px;
+  border: 2px solid #bdbdbd;
+  border-radius: 10px;
+}
+
+.p-hapus {
+  position: absolute;
+  color: #eb5757;
+  font-size: 16px;
+  font-weight: 500;
+  left: 810px;
+}
+
+hr {
+  position: absolute;
+  width: 267px;
+  top: 148px;
+  border: 1px solid #bdbdbd;
+  left: 10px;
+  align-items: center;
+}
+
+.hr-cart {
+  position: absolute;
+  width: 900px;
+  top: 230px;
+  left: 0px;
+}
+
+.jumlah {
+  color: #333333;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.total {
+  color: #333333;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 10px;
+}
+
+.jumlah1 {
+  position: absolute;
+  color: #333333;
+  margin-left: 205px;
+  margin-top: -90px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  margin-bottom: 10px;
+}
+.point0 {
+  position: absolute;
+  color: #333333;
+  margin-left: 60px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-bottom: 10px;
+}
+
+.point1 {
+  position: absolute;
+  color: #219653;
+  width: 100px;
+  margin-top: 34px;
+  margin-left: -28px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 10px;
+}
+
+.total1 {
+  color: #333333;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-weight: 500;
+  line-height: 21px;
+  margin-bottom: 10px;
+}
+
+.log .logg {
+  position: absolute;
+  width: 270px;
+  height: 40px;
+  margin-left: -65px;
+  margin-top: 35px;
+  font-size: 17px;
+  color: #ffffff;
+  background-color: #219653;
+  border: 2px solid #219653;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bagg {
+  position: absolute;
+  width: 270px;
+  font-size: 17px;
+  height: 40px;
+  margin-top: 85px;
+  text-align: center;
+  margin-left: -64px;
+  color: #bdbdbd;
+  border: 2px solid #bdbdbd;
+  border-radius: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.bagimg {
+  position: absolute;
+  margin-left: -70px;
+}
+.arrow {
+  position: absolute;
+  margin-left: 50px;
+}
+/* Akhir Total */
+
+/* Awal Button */
+.log {
+  position: absolute;
+  border: none;
+  margin-left: 75px;
+  margin-top: -40px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+}
+a {
+  color: #ffffff;
+}
+a:hover {
+  transform: translate(2px);
+  color: #bdbdbd;
+}
+
+.log,
+.frame button:active {
+  background-color: #219653;
+  box-shadow: 0 5px #bdbdbd;
+  transform: translateY(4px);
+}
+
+/* Akhir Button */
+
+/* Checkout */
+.checkout {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  margin-top: 170px;
+  margin-left: 140px;
+}
+
+.p-1 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.p-data {
+  position: absolute;
+  width: 220px;
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: -86px;
+  margin-left: 800px;
+  line-height: 36px;
+  color: #1e894c;
+}
+/* Akhir Checkout */
+
+/* Awal Cart */
+.cart {
+  position: absolute;
+  width: 910px;
+  height: 1150px;
+  line-height: 36px;
+  margin-top: 100px;
+  margin-left: 140px;
+  border-radius: 10px;
+}
+
+.cart-all {
+  position: absolute;
+  margin-top: 300px;
+}
+
+.cart-p {
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 36px;
+  color: #000000;
+}
+
+.cart-events {
+  position: absolute;
+  display: flex;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.cart-box {
+  position: absolute;
+  width: 910px;
+  height: 915px;
+  border: 1px solid #ffffff;
+}
+
+.cart-training {
+  position: absolute;
+  display: flex;
+  margin-top: 100px;
+}
+.cart-training img {
+  position: absolute;
+}
+
+.cart-training p {
+  margin-left: 100px;
+  line-height: 27px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.cart-persen {
+  position: absolute;
+  display: flex;
+  width: 350px;
+  left: 100px;
+  top: 160px;
+}
+
+.p-persen {
+  position: absolute;
+  width: 60px;
+  text-align: center;
+  background-color: #219653;
+  color: #ffffff;
+  border: 1px solid #219653;
+  border-radius: 5px;
+}
+
+.del-rp {
+  position: absolute;
+  left: 78px;
+  text-decoration: line-through;
+  font-weight: 400;
+}
+
+.p-rp {
+  position: absolute;
+  left: 169.08px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+}
+
+/* Akhir Cart */
+
+/* Awal Cart 2 */
+
+.cart1 {
+  position: absolute;
+  width: 910px;
+  height: 250px;
+  line-height: 36px;
+  margin-top: -140px;
+  margin-left: 140px;
+  border-radius: 10px;
+}
+
+.cart-box1 {
+  position: absolute;
+  width: 900px;
+  height: 300px;
+  top: 500px;
+}
+
+.cart2 {
+  position: absolute;
+  width: 910px;
+  height: 250px;
+  line-height: 36px;
+  margin-top: -20px;
+  margin-left: 140px;
+  border-radius: 10px;
+}
+
+.cart-box2 {
+  position: absolute;
+  width: 900px;
+  height: 300px;
+  top: 500px;
+}
+.cart-box2 input {
+  width: 25px;
+  border: 2px solid #000000;
+  cursor: pointer;
+}
+
+.cart-books {
+  position: absolute;
+  display: flex;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.cart-training1 {
+  position: absolute;
+  display: flex;
+  margin-top: 100px;
+}
+
+.cart-training1 p {
+  margin-left: 20px;
+  line-height: 27px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.cart-persen1 {
+  position: absolute;
+  display: flex;
+  width: 350px;
+  left: 100px;
+  top: 160px;
+}
+
+.cart-training2 {
+  position: absolute;
+  display: flex;
+  margin-top: 100px;
+}
+.cart-training2 img {
+  position: absolute;
+}
+
+.cart-training2 p {
+  margin-left: 100px;
+  line-height: 27px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.cart-persen2 {
+  position: absolute;
+  display: flex;
+  width: 350px;
+  left: 100px;
+  top: 160px;
+}
+
+.p-persen {
+  position: absolute;
+  width: 60px;
+  text-align: center;
+  background-color: #219653;
+  color: #ffffff;
+  border: 1px solid #219653;
+  border-radius: 5px;
+}
+
+.del-rp {
+  position: absolute;
+  left: 78px;
+  text-decoration: line-through;
+  font-weight: 400;
+}
+
+.p-rp {
+  position: absolute;
+  left: 169.08px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+}
+/* Akhir Cart 2 */
+
+/* Awal Cart 3-4 */
+.cart3 {
+  position: absolute;
+  width: 910px;
+  height: 250px;
+  line-height: 36px;
+  margin-top: 200px;
+  margin-left: 140px;
+  border-radius: 10px;
+}
+
+.cart-box3 {
+  position: absolute;
+  width: 900px;
+  height: 300px;
+  top: 500px;
+}
+
+.cart4 {
+  position: absolute;
+  width: 910px;
+  height: 250px;
+  line-height: 36px;
+  margin-top: 320px;
+  margin-left: 140px;
+  border-radius: 10px;
+}
+
+.cart-box4 {
+  position: absolute;
+  width: 900px;
+  height: 300px;
+  top: 500px;
+}
+
+.cart-shirts {
+  position: absolute;
+  display: flex;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.cart-training3 {
+  position: absolute;
+  display: flex;
+  margin-top: 100px;
+}
+.cart-training3 img {
+  position: absolute;
+}
+
+.cart-training3 p {
+  margin-left: 100px;
+  line-height: 27px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.cart-persen3 {
+  position: absolute;
+  display: flex;
+  width: 350px;
+  left: 100px;
+  top: 160px;
+}
+
+.cart-training4 {
+  position: absolute;
+  display: flex;
+  margin-top: 100px;
+}
+.cart-training4 img {
+  position: absolute;
+}
+
+.cart-training4 p {
+  margin-left: 100px;
+  line-height: 27px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.cart-persen4 {
+  position: absolute;
+  display: flex;
+  width: 350px;
+  left: 100px;
+  top: 160px;
+}
+/* Akhir Cart 3-4 */
+
+/* Awal Frame 3-4 */
+.frames3 {
+  position: absolute;
+  margin-top: 160px;
+  text-align: center;
+  width: 128px;
+  height: 35px;
+  margin-left: 720px;
+  border: 1px solid #219653;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.frames4 {
+  position: absolute;
+  margin-top: 160px;
+  text-align: center;
+  width: 128px;
+  height: 35px;
+  margin-left: 720px;
+  border: 1px solid #219653;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.frames3 input {
+  border: #ffffff;
+}
+.frames4 input {
+  border: #ffffff;
+}
+/* Akhir Frame 3-4 */
+
+/* Awal Footer */
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 290px;
+  margin-top: 1250px;
+  background-color: #219653;
+  text-align: center;
+}
+.top {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  margin-top: 1320px;
+  text-align: center;
+}
+.buttom {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  margin-top: 1530px;
+  background-color: #1e894c;
+  text-align: center;
+}
+.buttom2 {
+  position: absolute;
+  width: 100%;
+  top: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+.top2 {
+  position: absolute;
+  width: 100%;
+  top: 60px;
+}
+
+.imgfooter {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  top: 100px;
+  cursor: pointer;
+}
+/* Akhir Footer */
